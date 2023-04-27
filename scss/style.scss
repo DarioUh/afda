@@ -1,32 +1,3 @@
-.bg-principal{background: linear-gradient(to left, #333333, #3D27AD, #29c5e0);}
-.card-header{margin-top: -100; height: 50px; background: #C2FFFB; color: #4C4C4C;}
-.dropdown-menu{background-color: #5438db;}
-.dropdown-item{color: aliceblue;}
-.centro{background-image: url(../img/cesped.jpg);}
-.card{
-    border: 1px solid transparent;
-    backdrop-filter: blur(1rem);
-    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
-    border-top-color: rgba(255, 255, 255, 0.5);
-    border-left-color: rgba(255, 255, 255, 0.5);
-    border-bottom-color: rgba(255, 255, 255, 0.1);
-    border-right-color: rgba(255, 255, 255, 0.1);
-}
-.cb1{
-    background-color: rgba(255, 255, 255, 0.041);
-    color: white;
-}
-#galeria .col-lg4 {
-    padding: 25px;
-}
-#galeria img {
-    width: 100%;
-    height: 250px;
-}
-.ratio {
-    position: relative;
-    width: 50%;
-}
-.form-label{text-color: aliceblue; size: 2rem;}
-#stretched-link{color: #C2FFFB;}
-#contac{color: #C2FFFB;}
+@import "general";
+@import "gradientes";
+@import "transform";

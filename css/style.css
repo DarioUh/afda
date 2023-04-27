@@ -1,7 +1,3 @@
-.bg-principal {
-  background: linear-gradient(to left, #333333, #3D27AD, #29c5e0);
-}
-
 .card-header {
   margin-top: -100;
   height: 50px;
@@ -48,6 +44,34 @@
 .ratio {
   position: relative;
   width: 50%;
+}
+
+.form-label {
+  caret-color: aliceblue;
+  size: 2rem;
+}
+
+#stretched-link {
+  color: #C2FFFB;
+}
+
+#contac {
+  color: #C2FFFB;
+}
+
+.contacto {
+  color: #C2FFFB;
+}
+
+.bg-principal {
+  background: linear-gradient(to left, #333333, #3D27AD, #29c5e0);
+}
+
+.redes-sociales img {
+  transition: transform 0.3s ease-out;
+}
+.redes-sociales:hover img {
+  transform: scale(1.5);
 }
 
 /*# sourceMappingURL=style.css.map */

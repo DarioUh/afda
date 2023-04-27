@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AFDA - Planteles</title>
+    <!-- etiqueta para SEO -->
+    <meta name="description" content="Se muestra el plantel actual de la Academia de Futbol de altura del periodo 2023, alumnos de todas las categorías y equipos a los que preparamos fisicamente">
+    <meta name="keywords" content="plantel, afda 2023, alumnos, temporada 2023, la quiaca">
+    <!-- LINK CSS AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- LINK CSS BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- LINK CSS -->
@@ -14,7 +19,7 @@
     <!-- LO PRIMERO QUE ABRIMOS ES UN CONTAINER -->
     <div class="container-fluid m-0 p-0">
         <!-- DENTRO DEL CONTAINER PUEDO TENER ROW ILIMITADAS (1 o +1) -->
-        <header class="row bg-principal">
+        <header class="row bg-principal m-0">
             <!-- SIEMPRE DENTRO DE LA ROW, TENGO QUE PONER LA CANTIDAD DE COLUMNAS. SE TRABAJA CON 12 COLUMNAS DE ANCHO Y SI TENEMOS 13 GENERA UN SALTO DE LINEA -->
             <div class="col-lg-12 col-12 p-0">
                 <img src="../img/banner1.jpg" alt="Portada AFdA" class="img-fluid">
@@ -55,7 +60,7 @@
             </div>            
         </header>
         <!-- NUEVA ROW -->
-        <div class="row centro">
+        <div class="row centro m-0">
             <div class="col-lg-12 col-12 p-0">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -91,7 +96,7 @@
           </div>
         </div>
         <div class="row centro container-fluid justify-content-center p-0 m-0">
-            <div class="col-lg-6 col-12 p-0 m-0">
+            <div class="col-lg-6 col-12 p-0 m-0" data-aos="fade-right">
                 <div class="accordion p-4" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -233,26 +238,31 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-12 pt-3 mt-5 ratio ratio-16x9 container-fluid justify-content-center">
+          <div class="col-lg-6 col-12 pt-3 mt-5 ratio ratio-16x9 container-fluid justify-content-center" data-aos="fade-up">
             <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Facademiafda%2Fvideos%2F1387696175250489%2F&show_text=false&width=560&t=0" width="250" height="auto" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
           </div>
         </div>      
-        <footer class="row bg-principal mt-0 p-0">
-          <div class="col-lg-4 col-12 d-flex justify-content-center">
+        <footer class="row bg-principal m-0 p-0">
+          <div class="col-lg-4 col-12 d-flex justify-content-center redes-sociales">
               <img src="../img/logoAfdaChico.png" alt="Logo AFdA" class="img-fluid" width="100px" height="auto">
           </div>
           <div class="col-lg-4 col-12 d-flex justify-content-center pt-2">
-            <a class="contac " style="text-decoration: none;" > <h5>Contacto +54 9 3885 434273</h5> </a> 
+            <a class="contacto redes-sociales" style="text-decoration: none;" > <h5>Contacto +54 9 3885 434273</h5> </a> 
         </div>
-        <div class="col-lg-4 col-12 d-flex justify-content-center p-2">
+        <div class="col-lg-4 col-12 d-flex justify-content-center p-2 redes-sociales">
           <a href="https://www.youtube.com/@academiafutboldealtura4592" target="_blank">
-          <img src="../img/facebook.png" alt="Logo FACEBOOK" class="img-fluid p-2" width="50px" height="auto"></a>          
+          <img src="../img/facebook.png" alt="Logo FACEBOOK" class="img-fluid p-2 redes-sociales" width="50px" height="auto"></a>          
         
           <a href="https://www.facebook.com/academiafda" target="_blank">
-          <img src="../img/youtube.png" alt="Logo YOUTUBE" class="img-fluid p-2 " width="50px" height="auto"></a>
+          <img src="../img/youtube.png" alt="Logo YOUTUBE" class="img-fluid p-2 redes-sociales" width="50px" height="auto"></a>
         </div>
       </footer>
     <!-- LINK JS BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
+<!-- SCRIPT AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+  </body>
 </html>
