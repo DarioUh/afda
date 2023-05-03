@@ -28,12 +28,13 @@ nav ul li {
 }
   
 nav ul li a {
-    color: #C2FFFB;
+    color: #808ea3;
     display: block;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 18px;
     text-decoration: none;
+    font-weight: bold;
 }
   
 nav ul li ul {
