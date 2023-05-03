@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+.img-fluida{width:100%;height: auto;}
 .card-header{margin-top: -100; height: 50px; background: #C2FFFB; color: #4C4C4C;}
 .dropdown-menu{background-color: #5438db;}
 .dropdown-item{color: aliceblue;}
@@ -26,9 +30,22 @@
     position: relative;
     width: 50%;
 }
-.form-label{caret-color: aliceblue; size: 2rem;}
+.form-label{
+    caret-color: aliceblue; 
+    size: 2rem;
+    background-color: #08770e9d;
+    padding: 0.4rem;
+    color: aliceblue;
+    border-radius: 8px;
+}
 #stretched-link{color: #C2FFFB;}
 #contac{color: #C2FFFB;}
 .contacto{
   color: #C2FFFB;
+}
+.banner{
+    margin-bottom: 0px;
+}
+nav{
+    margin-top: 0px;
 }
